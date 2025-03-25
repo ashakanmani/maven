@@ -29,7 +29,7 @@ stage('Continuous testing')
 steps
 {
     git 'https://github.com/IntelliqDevops/FunctionalTesting.git'
-    sh 'java -jar /home/ubuntu/.jenkins/workspace/Dev02/testing.jar'
+  sh 'java -jar /home/ubuntu/.jenkins/workspace/dev02/testing.jar'
     }
 }
 stage('Continuous Delivery') 
